@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Levi Alves Junior">
+    <meta name="description" content="Cadastro com MySql e Bootstrap">
+    <meta name="robots" content="index, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CMB - Home</title>
+    <link rel="shortcut icon" type="imagem/png" href="img/cadastro.png">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <!-- optional javascript -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script><!-- usar tanto o popper quanto o javscript do bootstrap -->    
+  </head>
+  <body>
+    <header>      
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">          
+          <a class="navbar-brand" href="index.html">CMB-HOME</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>  
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto">            
+              <li class="nav-item">
+                <a class="nav-link" href="cadastro.php">Cadastrar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="listar.php">Listar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="bg-light p-5 rounded" style="margin-top: 150px;">
+        <spam class="fs-1 fw-bold">IMPORTATE</spam><br><br>
+        <ul style="list-style-type: none;">
+          <li>O objetivo desse site de cadastro é demonstrar minhas habilidades de manipular dados no banco MySql e o uso do template Bootstrap.</li>
+          <li>Em "Cadastro" o usuário pode adicionar um novo registro.</li>
+          <li>Em "Listar" o usuário pode vizualizar todos os registros. Assim como: modificar ou apagar os dados de um registro.</li>
+          <li>Os dados ficam salvos no banco de dados MySql.</li>				
+        </ul>
+      </div>
+    </main>
+
+    <footer>      
+    </footer>
+
+  </body>
+</html>
